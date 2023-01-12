@@ -297,3 +297,4 @@ defaults:
       share: false
       related: true
       sidebar_main: true
+      show_date : true
