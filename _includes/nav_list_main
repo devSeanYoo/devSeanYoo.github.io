@@ -16,33 +16,26 @@
         <span class="nav__sub-title">Blog</span>
             <ul> <!--ul 태그로 각 카테고리 페이지들 나열--> <!--블로그 카테고리-->
                 {% for category in site.categories %}
-                    {% if category[0] == "Blog" %}
+                    {% if category[0] == "blog" %}
                         <!--카테고리 글들을 모아둔 페이지의 주소로 링크 연결-->
                         <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                         <li><a href="/categories/#blog" class="">Blog ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul> <!--커리어 관련 카테고리-->
+            <ul> <!--커리어 카테고리-->
                 {% for category in site.categories %}
-                    {% if category[0] == "Career" %}
+                    {% if category[0] == "career" %}
                         <li><a href="/categories/#career" class="">Career ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
         
-        <span class="nav__sub-title">Coding</span> <!--코딩 대분류-->
+        <span class="nav__sub-title">Project</span> <!--프로젝트 대분류-->
             <ul> <!--깃헙블로그 카테고리-->
                 {% for category in site.categories %}
-                    {% if category[0] == "GithubBlog" %}
+                    {% if category[0] == "githubblog" %}
                         <li><a href="/categories/#githubblog" class="">Github Blog ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul> <!--SQL 카테고리-->
-                {% for category in site.categories %}
-                    {% if category[0] == "SQL" %}
-                        <li><a href="/categories/#sql" class="">SQL ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -53,7 +46,29 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">SQL</span> <!---->
+        <span class="nav__sub-title">Review</span> <!--후기 대분류-->
+            <ul> <!--창업 카테고리-->
+                {% for category in site.categories %}
+                    {% if category[0] == "entrepreneurship" %}
+                        <li><a href="/categories/#entrepreneurship" class="">Entrepreneurship ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul> <!---->
+                {% for category in site.categories %}
+                    {% if category[0] == "productreview" %}
+                        <li><a href="/categories/productreview" class="">Product Review ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Study</span> <!--개인공부 대분류-->
+            <ul> <!--SQL 카테고리-->
+                {% for category in site.categories %}
+                    {% if category[0] == "sql" %}
+                        <li><a href="/categories/#sql" class="">SQL ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <ul> <!---->
                 {% for category in site.categories %}
                     {% if category[0] == "Programmers" %}

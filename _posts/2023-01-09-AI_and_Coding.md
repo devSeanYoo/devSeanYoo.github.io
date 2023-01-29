@@ -1,7 +1,7 @@
 ---
 title : 깃헙 블로그를 만들며 느낀 점
 excerpt : AI가 발전해도 개발 능력은 필요하겠구나
-categories : Blog
+categories : blog
 ---
 
 ## AI가 발전해도 개발 능력은 필요하겠구나

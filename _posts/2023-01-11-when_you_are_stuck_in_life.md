@@ -1,7 +1,7 @@
 ---
 title : 인생이 잘 안 풀린다면 읽어보자
 excerpt : When you are stuck in life
-categories : Blog
+categories : blog
 ---
 
 ## 인생은 게임이다.

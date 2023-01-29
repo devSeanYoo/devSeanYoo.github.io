@@ -1,7 +1,7 @@
 ---
 title:  "스파르타코딩클럽 [엑셀보다 쉬운 SQL] 1주차 개발일지"
 excerpt: select, where 등 조건 걸어서 데이터 보기
-categories: SQL
+categories: sql
 ---
 
 ## select, where 등 조건 걸어서 데이터 보기

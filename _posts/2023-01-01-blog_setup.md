@@ -1,7 +1,7 @@
 ---
 title:  "(첫글) 깃헙 블로그 구축하기"
 excerpt: "계정 생성부터 사이트 등록까지"
-categories: GithubBlog
+categories: githubblog
 ---
 
 ## 계정 생성부터 사이트 등록까지

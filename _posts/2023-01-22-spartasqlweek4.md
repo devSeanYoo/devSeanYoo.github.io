@@ -1,7 +1,7 @@
 ---
 title : 스파르타코딩클럽 [엑셀보다 쉬운 SQL] 4주차 개발일지
 excerpt : Subquery 이용
-categories : SQL
+categories : sql
 ---
 
 <br>

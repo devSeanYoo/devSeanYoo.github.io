@@ -1,7 +1,7 @@
 ---
 title : 깃헙 블로그를 시작하게 된 이유
 excerpt : 기록의 중요성과 목적성
-categories : Blog
+categories : blog
 ---
 
 

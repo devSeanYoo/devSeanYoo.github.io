@@ -1,7 +1,7 @@
 ---
 title : 스파르타코딩클럽 [엑셀보다 쉬운 SQL] 3주차 개발일지
 excerpt : 쿼리 순서 = from > join > where > group by > select > order by
-categories : SQL
+categories : sql
 ---
 
 ## Join, Union을 통해 테이블 연결하기

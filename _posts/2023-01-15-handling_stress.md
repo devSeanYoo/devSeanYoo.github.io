@@ -1,7 +1,7 @@
 ---
 title : 스트레스에 대응하는 법
 excerpt : 번아웃 방지하기 위해
-categories : Blog
+categories : blog
 ---
 
 <br>

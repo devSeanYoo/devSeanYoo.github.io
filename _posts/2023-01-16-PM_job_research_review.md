@@ -1,7 +1,7 @@
 ---
 title : 서비스 기획자 직무조사 후 느낀 점
 excerpt : 가장 어려운 기본적인 능력들
-categories : Blog
+categories : blog
 ---
 
 <br>

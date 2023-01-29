@@ -1,7 +1,7 @@
 ---
 title: 스파르타코딩클럽 [엑셀보다 쉬운 SQL] 2주차 개발일지
 excerpt: Group by, Order by를 통한 범주화와 정렬
-categories: SQL
+categories: sql
 ---
 
 
