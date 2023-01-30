@@ -65,7 +65,7 @@
             <ul> <!--마케팅 카테고리-->
                 {% for category in site.categories %}
                     {% if category[0] == "marketing" %}
-                        <li><a href="/categories/marketing" class="">Marketing ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#marketing" class="">Marketing ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
