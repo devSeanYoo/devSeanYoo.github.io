@@ -57,7 +57,7 @@
             <ul> <!---->
                 {% for category in site.categories %}
                     {% if category[0] == "productreview" %}
-                        <li><a href="/categories/productreview" class="">Product Review ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#productreview" class="">Product Review ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
