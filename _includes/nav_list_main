@@ -62,6 +62,13 @@
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">Study</span> <!--개인공부 대분류-->
+            <ul> <!--엑셀 카테고리-->
+                {% for category in site.categories %}
+                    {% if category[0] == "excel" %}
+                        <li><a href="/categories/#excel" class="">Excel ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <ul> <!--마케팅 카테고리-->
                 {% for category in site.categories %}
                     {% if category[0] == "marketing" %}
