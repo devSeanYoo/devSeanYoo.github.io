@@ -54,7 +54,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul> <!---->
+            <ul> <!--프로덕트 리뷰 카테고리-->
                 {% for category in site.categories %}
                     {% if category[0] == "productreview" %}
                         <li><a href="/categories/#productreview" class="">Product Review ({{category[1].size}})</a></li>
