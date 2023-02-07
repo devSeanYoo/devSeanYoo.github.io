@@ -6,7 +6,7 @@ categories : blog
 
 <br>
 
-출처 : *제주 동북쪽 바닷가 마을에 사는 N잡러 이야기 - 디자이너, 개발자, 그리고 1인 기업까지 | 인프콘 2022, 2022.10.24,* <https://www.youtube.com/watch?v=7uMnpkJwyRU&list=PLpkj8RKr48wZMPKR292FOoahqxVDi6d6R&index=20>
+출처 : *제주 동북쪽 바닷가 마을에 사는 N잡러 이야기 - 디자이너, 개발자, 그리고 1인 기업까지 \| 인프콘 2022, 2022.10.24,* <https://www.youtube.com/watch?v=7uMnpkJwyRU&list=PLpkj8RKr48wZMPKR292FOoahqxVDi6d6R&index=20>
 
 <br>
 
