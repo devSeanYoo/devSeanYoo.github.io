@@ -1,7 +1,7 @@
 ---
-title : 
-excerpt : 
-categories : 
+title : 초기 서비스를 분석하는 데이터 마인드셋
+excerpt : 초기 프로젝트 실행에도 적용 가능
+categories : blog
 ---
 
 <br>
