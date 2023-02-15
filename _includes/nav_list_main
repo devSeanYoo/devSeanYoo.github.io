@@ -86,7 +86,7 @@
             <ul> <!--기타 카테고리-->
                 {% for category in site.categories %}
                     {% if category[0] == "miscellaneous" %}
-                        <li><a href="/categories/miscellaneous" class="">miscellaneous ({{category[1].size}})</a></li>
+                        <li><a href="/categories/miscellaneous" class="">Miscellaneous ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
