@@ -83,10 +83,10 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul> <!---->
+            <ul> <!--기타 카테고리-->
                 {% for category in site.categories %}
-                    {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+                    {% if category[0] == "miscellaneous" %}
+                        <li><a href="/categories/miscellaneous" class="">miscellaneous ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
