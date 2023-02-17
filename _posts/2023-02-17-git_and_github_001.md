@@ -1,7 +1,7 @@
 ---
 title : 깃의 역할과 용어, 깃헙 용어
 excerpt : 유튜브 생활코딩 참고
-categories : github
+categories : git
 ---
 
 ## 깃의 역할
