@@ -8,11 +8,9 @@ categories : excel
 1. 구글 스프레드시트를 켠다.
 2. A1셀에 다음 코드를 붙여넣는다.  
 =importfeed("http://news.google.com/news?hl=ko&gl=kr&ie=UTF-8&output=rss&q=펭귄","",true,30)  
-=importfeed("http://newssearch.naver.com/search.naver?where=rss&query=펭귄","items",true,100)
-
-> importfeed("뉴스의 rss를 얻는 주소", "쿼리", 헤더표시여부, 표시할 기사 개수)  
-
-> 펭귄을 다른 단어로 바꾸면 된다  
+=importfeed("http://newssearch.naver.com/search.naver?where=rss&query=펭귄","items",true,100)  
+    > importfeed("뉴스의 rss를 얻는 주소", "쿼리", 헤더표시여부, 표시할 기사 개수)  
+    > 펭귄을 다른 단어로 바꾸면 된다  
 
 > 2023-02-19자로 네이버뉴스에서 rss를 제대로 긁어오지 못하는 듯 하다.
 
