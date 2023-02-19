@@ -11,6 +11,7 @@ categories : excel
 =importfeed("http://newssearch.naver.com/search.naver?where=rss&query=펭귄","items",true,100)  
     > importfeed("뉴스의 rss를 얻는 주소", "쿼리", 헤더표시여부, 표시할 기사 개수)  
     > 펭귄을 다른 단어로 바꾸면 된다  
+    > 복사했을 때 Formula parse error가 뜬다면 따옴표를 지웠다가 다시 적기
 
 > 2023-02-19자로 네이버뉴스에서 rss를 제대로 긁어오지 못하는 듯 하다.
 
