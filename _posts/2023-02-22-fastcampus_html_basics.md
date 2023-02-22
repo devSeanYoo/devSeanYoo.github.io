@@ -26,11 +26,11 @@ categories : coding
 - 빈 태그 : 열리고 닫히지 않고 시작 태그만 존재
   - <태그>
     ```html
-    <br>  
+    \<br>  
     ```
   - <태그 속성="값"/> 끝에 /를 붙여서 빈태그가 종료되었다는 것을 표시
     ```html
-    <img src="이미지 파일">
+    <img src="이미지 파일"/>
     ```
 
 <br>
@@ -52,10 +52,12 @@ categories : coding
 <head> <!-- html의 정보 표현 -->
   <meta charset="UTF-8">   <!-- 기본 문자인코딩 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- MS의 IE와 edge 관련 명령어, 없어도 무방 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- viewport는 모바일을 뜻함, 모바일에서 사이트가 어떻게 출력될지 설정, 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- viewport는 모바일을 뜻함, 모바일에서 사이트가 어떻게 출력될지 설정, 
   1.0이면 확대축소가 되어있지 않음, 모바일에서 볼 필요가 없다면 제거 가능 -->
   <title>Document</title>
-  <link rel="stylesheet" href="./main.css"> <!-- link를 적고 tab을 누르면 자동완성, href에 link할 파일 기입, css파일을 html에 연결 -->
+  <link rel="stylesheet" href="./main.css"> 
+  <!-- link를 적고 tab을 누르면 자동완성, href에 link할 파일 기입, css파일을 html에 연결 -->
   <script defer src="./main.js"></script> <!-- js파일을 html에 연결 -->
 </head>
 <body>  <!-- html의 구조 표현 -->
