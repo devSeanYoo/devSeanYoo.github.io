@@ -19,7 +19,8 @@ categories : coding
 
 ## 기본 명령어
 - ctrl + shift + p = 모든 명령 표시  
-- ctrl + / : 주석처리  
+- ctrl + / : 해당 라인 전체 주석처리  
+- c + tab : 주석 태그 바로 생성  
 - ctrl + p : 파일 검색  
 - ctrl + , : 설정  
 - ctrl + d : 커서가 놓인 단어와 같은 단어를 모두 하이라이트하고 일괄 수정 가능  
