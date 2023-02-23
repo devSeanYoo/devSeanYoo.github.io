@@ -74,7 +74,7 @@ categories : coding
     <h5>Hello5</h5>
     <h6>Hello6</h6>
   </div>
-  <div class="이름"> <!-- 요소에 별명 짓기, CSS에서 refer하는 명칭이 됨 -->
+  <div class="이름"> <!-- 요소에 별명 짓기, CSS에서 refer하는 명칭이 됨 = 선택자 -->
     <ul> <!-- unordered list 순서가 없는 목록 -->
       <li>Apple</li> <!-- list item 목록의 항목 -->
       <li>Banana</li>
