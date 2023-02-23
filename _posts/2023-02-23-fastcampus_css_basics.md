@@ -8,15 +8,15 @@ categories : coding
 
 ## CSS : Cascading Style Sheets
 - 컨텐츠를 꾸며주는 시각적인 표현 담당 (정적)
-  - 얼굴에 눈 코 입 귀를 적절하게 배치
+  - 얼굴에 눈, 코, 입, 귀를 적절하게 배치
   
-- main.css 파일 사용
+- main.css을 기본 파일로 사용
 
 <br>
 
 ## 개발자도구 사용
 - 개발자도구 F12를 이용해서 각 코드가 어디에 적용되었는지 하이라이트되어 알 수 있음  
-- 개발자도구를 통해 실시간으로 css를 작성하며 변경사항을 확인할 수 있고 그 후 실제 css파일에 복붙할 수도 있음
+- 개발자도구를 통해 실시간으로 CSS를 작성하며 변경사항을 확인할 수 있고 그 후 실제 CSS파일에 복붙할 수도 있음
 
 <br>
 
@@ -26,11 +26,10 @@ categories : coding
   ```css
   h1{color: red; font-size: 30px;}
    ```
-- .이름 : 해당 이름의 css 선택자를 html 파일에 생성 가능
-  ```css
-  .h1 {
-
-  }
+- .이름 + tab : 해당 이름의 css 선택자를 html 파일에 생성 가능
+  ```html
+  .name + tab
+  <div name=""></div>
   ```
 
 ```css
