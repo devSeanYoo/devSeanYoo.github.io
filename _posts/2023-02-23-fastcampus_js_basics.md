@@ -116,10 +116,8 @@ btnEl.addEventListener('click', function () {
     // 각 itemEl의 index와 같은 colors 변수의 배경색을 itemEl에 적용, HTML 요소에 CSS 지정
   })
   btnEl.innerHTML = '<span>클릭했어요!</span>' 
-  // 버튼을 클릭한 후 HTML 문구를 변경
-  // span으로 감싸서 css가 적용되게 만듦, HTML 요소의 내용으로 문자를 추가
-}) // btnEls 변수에 click 액션을 하면 function으로 정의한 이벤트가 발생
-// HTML 요소를 '클릭'하면 함수를 실행
+  // 버튼을 클릭한 후 HTML 문구를 변경, span으로 감싸서 css가 적용되게 만듦, HTML 요소의 내용으로 문자를 추가
+}) // btnEls 변수에 click 액션을 하면 function으로 정의한 이벤트가 발생, HTML 요소를 '클릭'하면 함수를 실행
 ```
 
 **위 함수의 최종 결과**  
