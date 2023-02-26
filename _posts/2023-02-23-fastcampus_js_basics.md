@@ -71,7 +71,8 @@ function hello() {
 hello()
 hello()
 hello()
-// 명령을 묶어서 간편하게 반복 사용 가능, 만약 함수를 사용하지 않고 3번 반복한다면 변수 3개(message1, message2, message3)에 값을 넣고 각 변수들을 모두 실행해야 함
+// 명령을 묶어서 간편하게 반복 사용 가능
+// 만약 함수를 사용하지 않고 3번 반복한다면 변수 3개(message1, message2, message3)에 값을 넣고 각 변수들을 모두 실행해야 함
 
 function hello(name) {
   const message = 'Hello '+ name + '!'
@@ -97,22 +98,31 @@ hello('E')
 
 ## JS로 HTML 제어하기
 ```javascript
-const itemEls = document.querySelectorAll('.item') // html 파일에서 .item 클래스를 가진 css 선택자를 모두 찾아서 itemEls 변수에 할당, 총 3개 있을 예정, 즉 HTML 요소를 찾아 변수에 저장
+const itemEls = document.querySelectorAll('.item') 
+// html 파일에서 .item 클래스를 가진 css 선택자를 모두 찾아서 itemEls 변수에 할당, 총 3개 있을 예정
+//즉 HTML 요소를 찾아 변수에 저장
 
-const btnEl = document.querySelector('.btn') // html 파일에서 .btn 클래스를 가진 css 선택자를 찾아서 btnEls 변수에 할당, 총 1개 있을 예정
+const btnEl = document.querySelector('.btn') 
+// html 파일에서 .btn 클래스를 가진 css 선택자를 찾아서 btnEls 변수에 할당, 총 1개 있을 예정
 
 const colors = ['blue', 'orange', 'tomato']
 
-btnEl.addEventListener('click', function () { // function () = 익명 함수, 지정된 함수의 이름이 없음
-  itemEls.forEach(function (itemEl, index) { // run function for Each itemEls, index = 각 실행항목마다 인덱스 넘버 추가, 찾은 HTML 요소의 개수만큼 함수를 반복해서 실행
-    console.log(index, itemEl)
-    itemEl.style.backgroundColor = colors[index] // itemEl을 출력하고 각 인덱스 숫자별로 배경색을 colors변수의 인덱스 숫자에 맞게 변경, HTML 요소에 CSS 지정
+btnEl.addEventListener('click', function () { 
+  // function () = 익명 함수, 지정된 함수의 이름이 없음
+  itemEls.forEach(function (itemEl, index) { 
+    // for Each itemEls마다 index 넘버 추가, 찾은 HTML 요소의 개수만큼 함수를 반복해서 run function
+    console.log(index, itemEl) // itemEl와 각 index 출력
+    itemEl.style.backgroundColor = colors[index] 
+    // 각 itemEl의 index와 같은 colors 변수의 배경색을 itemEl에 적용, HTML 요소에 CSS 지정
   })
-  btnEl.innerHTML = '<span>클릭했어요!</span>' // 버튼을 클릭한 후 HTML 문구를 변경, span으로 감싸서 css가 적용되게 만듦, HTML 요소의 내용으로 문자를 추가
-}) // btnEls 변수에 click 액션을 하면 function으로 정의한 이벤트가 발생, HTML 요소를 '클릭'하면 함수를 실행
+  btnEl.innerHTML = '<span>클릭했어요!</span>' 
+  // 버튼을 클릭한 후 HTML 문구를 변경
+  // span으로 감싸서 css가 적용되게 만듦, HTML 요소의 내용으로 문자를 추가
+}) // btnEls 변수에 click 액션을 하면 function으로 정의한 이벤트가 발생
+// HTML 요소를 '클릭'하면 함수를 실행
 ```
 
-**위 함수의 최종 결과**
+**위 함수의 최종 결과**  
 <img width="364" alt="123" src="https://user-images.githubusercontent.com/112374186/221399755-3e39cb98-1a73-4112-97c1-4ce12c93d074.png">
 
 <br>
