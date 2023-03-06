@@ -39,10 +39,10 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul> <!---->
+            <ul> <!--개인 DW 카테고리-->
                 {% for category in site.categories %}
-                    {% if category[0] == "STL" %}
-                        <li><a href="/categories/stl" class="">C++ STL & 표준 ({{category[1].size}})</a></li>
+                    {% if category[0] == "dw" %}
+                        <li><a href="/categories/#dw" class="">Data Warehouse ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
