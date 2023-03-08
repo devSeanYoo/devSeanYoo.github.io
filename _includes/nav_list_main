@@ -47,6 +47,13 @@
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">Review</span> <!--후기 대분류-->
+            <ul> <!--책 리뷰 카테고리-->
+                {% for category in site.categories %}
+                    {% if category[0] == "bookreview" %}
+                        <li><a href="/categories/#bookreview" class="">Book Review ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <ul> <!--창업 카테고리-->
                 {% for category in site.categories %}
                     {% if category[0] == "entrepreneurship" %}
