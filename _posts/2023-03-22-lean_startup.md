@@ -1,6 +1,6 @@
 ---
 title : 린 스타트업 - 애시 모리아
-excerpt : 
+excerpt : PMF검증은 숀 엘리스 테스트와 리텐션율 40%로 검증한다
 categories : bookreview
 ---
 
