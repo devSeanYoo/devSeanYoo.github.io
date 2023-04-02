@@ -1,5 +1,5 @@
 ---
-title : 
+title : 패스트캠퍼스 2023년 만우절 이벤트 리뷰
 excerpt : 눈에 띄는 이벤트 페이지 디자인
 categories : productreview
 ---
