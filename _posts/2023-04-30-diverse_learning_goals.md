@@ -6,7 +6,7 @@ categories : blog
 
 <br>
 
-참고 : 달라진 PM 직무 트렌드 따라잡기 | 스킬과 기술로는 부족한 이유 <https://www.youtube.com/watch?v=dOdKwrIQkDs>
+참고 : 달라진 PM 직무 트렌드 따라잡기 \| 스킬과 기술로는 부족한 이유 <https://www.youtube.com/watch?v=dOdKwrIQkDs>
 
 <br>
 
